@@ -35,6 +35,16 @@
             ],
             "name": "game1",
             "app": "app.game1server"
+        },
+        "game2": {
+            "remoteport": [
+                {
+                    "rootport": 10000,
+                    "rootname": "gate"
+                }
+            ],
+            "name": "game2",
+            "app": "app.game1server"
         }
     },
     "db": {
